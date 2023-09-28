@@ -1,20 +1,9 @@
 #include <stdio.h>
+#include "fc1.h"
+#include "fc2.h"
+#include "fc3.h"
+
 #define Qtd_elementos 5
-
-double fc1 (double arr[], int size)
-{
-    return arr[0] + arr[1];
-}
-
-double fc2 (double arr[], int size)
-{
-    return arr[2] - arr[3];
-}
-
-double fc3 (double arr[], int size)
-{
-    return arr[size-1] * 2;
-}
 
 int main ()
 {
